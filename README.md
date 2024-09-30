@@ -1,5 +1,5 @@
 # SOMA COM PHP
-👨‍🏫PROJETO CRIADO PARA O CURSO DE PHP.
+👨‍🏫PROJETO CRIADO PARA O CURSO DE PHP DO CURSO EM VIDEO.
 
 <img src="FOTO.png" align="center" width="500"> <br>
 
@@ -14,11 +14,18 @@ Este é um simples programa em PHP que permite ao usuário somar dois valores in
 - Os valores inseridos são passados através do método GET, o que significa que eles aparecerão na URL após o envio do formulário.
 
 ## EXECUTANDO O PROJETO:
-1. **Executando o Aplicativo:**
+1. **Executando o Aplicativo com Apache:**
    - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
-   - Acesse o formulário no navegador visitando `http://localhost/CODIGO/index.php`.
+   - Acesse o formulário no navegador visitando [http://localhost/CODIGO/index.php](http://localhost/CODIGO/index.php).
 
-2. **Interagir com o Projeto:**
+2. **Executando o Aplicativo com `php.exe`:**
+   - Alternativamente, você pode iniciar o servidor diretamente no diretório `./CODIGO` com o comando abaixo:
+   ```bash
+   php -S localhost:8080
+   ```
+   - Em seguida, acesse o formulário no navegador através do endereço: [http://localhost:8080](http://localhost:8080).
+
+3. **Interagir com o Projeto:**
    1. **Inserir Valores:**
       - Você verá dois campos de entrada de texto rotulados como "Valor 1" e "Valor 2".
       - Insira os valores que deseja somar nos campos correspondentes.
